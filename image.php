@@ -6,7 +6,7 @@
 	$objSheet=$objPHPExcel->getActiveSheet();//获得当前活动sheet
 	/**插入图片代码开始**/
 	$objDrawing=new PHPExcel_WorkSheet_Drawing();//获得一个图片的操作对象
-	$objDrawing->setPath($dir."/image/imooc.jpg");//加载图片路径
+	$objDrawing->setPath($dir."/image/1.jpg");//加载图片路径
 	$objDrawing->setCoordinates("F6");//设置图片插入位置的左上角坐标
 	$objDrawing->setWidth(500);//设置插入图片的大小
 	//$objDrawing->setHeight(100);
